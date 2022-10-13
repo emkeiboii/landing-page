@@ -151,12 +151,36 @@ h3{
   align-self: flex-start;
 }
 
-.author{
+.quote p{
   font-size: 24px;
   font-weight: 700;
   margin: 15px 20px 10px 0px;
   align-self: flex-end;
+  color: #1F2937;
 }
 
 /* End quote*/
 /* Start cta */
+
+.cta{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882F6;
+  padding: 40px 8%;
+  margin: 70px 14% 70px 14%;
+  border-radius: 10px;
+}
+
+h4{
+  color: white;
+  font-size: 24px;
+}
+
+.cta button{
+  border: 2px solid white;
+  justify-self: end;
+}
+
+/* End cta */
+/* Start footer */
